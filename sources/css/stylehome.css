@@ -1,0 +1,105 @@
+body
+{
+    background: #000;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.nav
+{
+    width: 33%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+.nav .links
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .links .link
+{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container-image
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-id
+{
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+    /* background: #0000004d; */
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+
+.card-id .name
+{
+    padding-bottom: 10px;
+    font-size: 50px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.card-id .title
+{
+    padding-bottom: 15%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.card-id .button-home
+{
+    height: 50px;
+    width: 140px;
+    background: #B25656;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.card-id .button-home a
+{
+    padding: 15px 25px;
+}
+
+.container-social
+{
+    width: 10%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
