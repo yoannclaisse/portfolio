@@ -7,6 +7,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .container
@@ -15,27 +16,57 @@ body
     height: 800px;
     background: #ffffff;
     position: relative;
+    box-sizing: border-box;
+
 }
 
-.container .letters
+.letters
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    border: solid #ff0000 1px;
+}
+
+.letter
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid #5B6DCD 1px;
+    text-align: center;
+}
+
+.container .title
+{
     position: absolute;
-    top: 45%;
-    left: 40%;
-    /* width: 1000px;
-    height: 455px; */
-    font-size: 500px;
+    top: 50%;
+    left: 5%;
+    font-size: 50px;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
 }
 
-.container .letters .letter
+.container .square-1
+{
+
+}
+
+.container .square-2
 {
     
 }
+
+.container .square-3
+{
+    
+}
+
+.container .square-4
+{
+    
+}
+
+
+
+
 
