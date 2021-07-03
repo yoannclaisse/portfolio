@@ -1,72 +1,114 @@
+*
+{
+    box-sizing: border-box;
+}
+
 body
 {
     width: 100vw;
     height: 100vh;
     background: #000000;
+    /* overflow: hidden; */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
 }
-
 .container
 {
+    position: relative;
     width: 1800px;
     height: 800px;
     background: #ffffff;
-    position: relative;
-    box-sizing: border-box;
-
+    overflow: hidden;
 }
 
-.letters
+.container .letters
 {
-    border: solid #ff0000 1px;
+    z-index: 2;
+position: absolute;
+top: 56%;
+left: 50%;
+cursor: default;
 }
 
-.letter
+.container .letters .letter
 {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    border: solid #5B6DCD 1px;
-    text-align: center;
+    font-size: 400px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .container .title
 {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 5%;
     font-size: 50px;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
+    cursor: default;
 }
 
 .container .square-1
 {
-
+    position: absolute;
+    left: 40%;
+    width: 430px;
+    height: 390px;
+    background: #b25555;
 }
 
 .container .square-2
 {
-    
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 350px;
+    height: 350px;
+    background: #edacac;
 }
 
 .container .square-3
 {
-    
+    z-index: 1;
+    position: absolute;
+    bottom: 20%;
+    left: 67%;
+    width: 600px;
+    height: 450px;
+    background: #c79898;
 }
 
 .container .square-4
 {
+    z-index: 1;
+    position: absolute;
+    bottom: 60%;
+    left: 75%;
+    width: 280px;
+    height: 320px;
+    background: #7b4545;
+}
+
+.container .burger-menu
+{
     
 }
 
-
-
-
+.container-social
+{
+    width: 10%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
