@@ -16,6 +16,13 @@
 @keyframes slidein {
     0% { transform:translateX(-800px); }
     20% { transform:translateX(-800px) }
-    35% { transform:translateX(250px) }
+    35% { transform:translateX(150px) }
     100% { transform:translateX(0px) }
+}
+
+@keyframes bounce {
+    0%    {transform: translateY(-1000px);}
+    50%   { transform: translateY(100px); }
+    75%   { transform: translateY(-50px); }
+    100% { transform: translateY(0px); }
 }
