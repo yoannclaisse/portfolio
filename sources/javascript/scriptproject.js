@@ -3,6 +3,8 @@ $chapters = [...$container.querySelectorAll('.chapter')]
 $burgerMenu = $container.querySelector('.burger-menu')
 $iconBurgerMenu = $burgerMenu.querySelector('.icon')
 $containBurgerMenu = $container.querySelector('.burger-container')
+$linksProject = [...$container.querySelectorAll('.link-project')]
+$projectPage = $container.querySelector('.container-projects')
 
 // kind of lazyload
 document.addEventListener('DOMContentLoaded', function() 
@@ -43,3 +45,15 @@ $containBurgerMenu.addEventListener('mouseleave', (event) =>
 {
     $containBurgerMenu.style.transform ='translateX(200px)'
 })
+
+// page project
+
+
+    $linksProject.forEach(($linkProject) =>
+{
+    $linkProject.addEventListener('mousedown', (event) =>
+    {
+        
+    })
+})
+    
