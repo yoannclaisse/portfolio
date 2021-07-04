@@ -24,6 +24,7 @@ body
     justify-content: center;
     align-items: center;
 }
+
 .container
 {
     position: relative;
@@ -41,7 +42,6 @@ body
     left: 50%;
     cursor: default;
     animation: bounce 2s alternate ;
-
 }
 
 .container .letters .letter

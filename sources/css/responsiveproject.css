@@ -1,58 +1,68 @@
 @media (max-width: 1905px)
 {
 
-    .container {
+    .container
+    {
         width: 1000px;
         height: 400px;
     }
 
-    .container .title {
+    .container .title
+    {
         top: 50%;
         left: 5%;
         font-size: 20px;
     }
 
-    .container .letters {
+    .container .letters
+    {
         top: 60%;
         left: 64%;
     }
 
-    .container .letters .letter {
+    .container .letters .letter
+    {
         font-size: 180px;
     }
 
-    .container .square-1 {
+    .container .square-1
+    {
         left: 40%;
         width: 200px;
         height: 191px;
     }
 
-    .container .square-2 {
+    .container .square-2
+    {
         left: 50%;
         width: 150px;
         height: 150px;
     }
 
-    .container .square-3 {
+    .container .square-3
+    {
         bottom: 20%;
         left: 70%;
         width: 300px;
         height: 225px;
     }
 
-    .container .square-4 {
+    .container .square-4
+    {
         bottom: 50%;
         left: 75%;
         width: 115px;
         height: 200px;
     }
 
-    .container .link-project {
+    .container .link-project
+    {
         font-size: 15px;
         font-weight: 900;
     }
 
-    .container .burger-menu {
+    .container .burger-menu
+    {
         left: 950px;
         width: 50px;
         height: 50px;
